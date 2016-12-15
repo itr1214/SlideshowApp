@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E2345401E002AFB0015B886 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E23453D1E002AFB0015B886 /* 0.jpg */; };
+		7E2345411E002AFB0015B886 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E23453E1E002AFB0015B886 /* 1.jpg */; };
+		7E2345421E002AFB0015B886 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E23453F1E002AFB0015B886 /* 2.jpg */; };
+		7E5BC07F1E02D06F002CE103 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5BC07E1E02D06F002CE103 /* ImageViewController.swift */; };
 		7EFF737C1DFEEE4700FA2584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF737B1DFEEE4700FA2584 /* AppDelegate.swift */; };
 		7EFF737E1DFEEE4700FA2584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFF737D1DFEEE4700FA2584 /* ViewController.swift */; };
 		7EFF73811DFEEE4700FA2584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFF737F1DFEEE4700FA2584 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E23453D1E002AFB0015B886 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		7E23453E1E002AFB0015B886 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		7E23453F1E002AFB0015B886 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		7E5BC07E1E02D06F002CE103 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		7EFF73781DFEEE4700FA2584 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EFF737B1DFEEE4700FA2584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EFF737D1DFEEE4700FA2584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,9 +105,13 @@
 		7EFF737A1DFEEE4700FA2584 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				7E23453D1E002AFB0015B886 /* 0.jpg */,
+				7E23453E1E002AFB0015B886 /* 1.jpg */,
+				7E23453F1E002AFB0015B886 /* 2.jpg */,
 				7EFF737B1DFEEE4700FA2584 /* AppDelegate.swift */,
 				7EFF737D1DFEEE4700FA2584 /* ViewController.swift */,
 				7EFF737F1DFEEE4700FA2584 /* Main.storyboard */,
+				7E5BC07E1E02D06F002CE103 /* ImageViewController.swift */,
 				7EFF73821DFEEE4700FA2584 /* Assets.xcassets */,
 				7EFF73841DFEEE4700FA2584 /* LaunchScreen.storyboard */,
 				7EFF73871DFEEE4700FA2584 /* Info.plist */,
@@ -193,6 +205,7 @@
 				TargetAttributes = {
 					7EFF73771DFEEE4700FA2584 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UW7CN42XF2;
 						ProvisioningStyle = Automatic;
 					};
 					7EFF738B1DFEEE4700FA2584 = {
@@ -232,9 +245,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2345421E002AFB0015B886 /* 2.jpg in Resources */,
+				7E2345401E002AFB0015B886 /* 0.jpg in Resources */,
 				7EFF73861DFEEE4700FA2584 /* LaunchScreen.storyboard in Resources */,
 				7EFF73831DFEEE4700FA2584 /* Assets.xcassets in Resources */,
 				7EFF73811DFEEE4700FA2584 /* Main.storyboard in Resources */,
+				7E2345411E002AFB0015B886 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EFF737E1DFEEE4700FA2584 /* ViewController.swift in Sources */,
+				7E5BC07F1E02D06F002CE103 /* ImageViewController.swift in Sources */,
 				7EFF737C1DFEEE4700FA2584 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UW7CN42XF2;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.ichirou.okada.SlideshowApp;
@@ -422,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UW7CN42XF2;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.ichirou.okada.SlideshowApp;
@@ -503,6 +522,7 @@
 				7EFF73A21DFEEE4700FA2584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EFF73A31DFEEE4700FA2584 /* Build configuration list for PBXNativeTarget "SlideshowAppTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +531,7 @@
 				7EFF73A51DFEEE4700FA2584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EFF73A61DFEEE4700FA2584 /* Build configuration list for PBXNativeTarget "SlideshowAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +540,7 @@
 				7EFF73A81DFEEE4700FA2584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
