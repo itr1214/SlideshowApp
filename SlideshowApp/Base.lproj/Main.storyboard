@@ -53,9 +53,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLC-dd-c1J">
-                                <rect key="frame" x="47" y="18" width="281" height="273"/>
+                                <rect key="frame" x="48" y="18" width="281" height="273"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="kakudai:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WUx-gq-OpH"/>
                                     <segue destination="bZn-PY-Ti4" kind="show" id="zm4-IY-MFs"/>
                                 </connections>
                             </button>

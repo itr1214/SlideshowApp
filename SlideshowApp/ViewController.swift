@@ -95,8 +95,13 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func kakudai(_ sender: Any) {
+        timer?.invalidate()
+        
+    }
     @IBAction func unwind(segue: UIStoryboardSegue) {
         // 他の画面から戻ってきたときに呼び出される処理を記述
+        timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(self.goImage), userInfo: nil, repeats: true)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
