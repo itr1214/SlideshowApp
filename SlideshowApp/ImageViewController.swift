@@ -10,16 +10,16 @@ import UIKit
 
 class ImageViewController: UIViewController {
 
+    
     @IBOutlet weak var imageView: UIImageView!
-    var fileName: String = ""
+    // 受け取るための変数定義
+    var faileName: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(faileName)
         
-        
-        var image = UIImage(named: fileName)
+        var image:UIImage = UIImage(named: faileName)!
         imageView.image = image
-        
-        
         //imageView.image = imageNumber + ".jpg"
         
 
